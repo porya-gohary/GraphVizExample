@@ -1,0 +1,11 @@
+digraph G {
+        j1[label=<J<SUB>1</SUB>>];   
+        j2[label=<J<SUB>2</SUB>>];
+        j3[label=<J<SUB>3</SUB>>];
+        j4[label=<J<SUB>4</SUB>>];
+        j5[label=<J<SUB>5</SUB>>];
+        j1 -> j3 
+        j2 -> j3
+        j2 -> j5
+        j3 -> j4
+    }
